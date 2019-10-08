@@ -8,3 +8,11 @@ This aims to reinforce the largely theoretical concepts surrounding learners, da
 
 ---
 
+### Datasets:
+The data has collected from Twitter (https://www.twitter.com), specifically for this Project. According to Twitter’s Terms of Service, this data cannot share for any other purpose, or reproduce it in any form, other than as isolated examples.
+Please note that the dataset is a sample of actual data posted to the World Wide Web. As such, it may contain information that is in poor taste, or that could be construed as offensive. 
+The opinions expressed within the data are those of the (anonymised) authors, and in no way express the official views of the University of Melbourne or any of its employees; using the data in an educative capacity does not consitute endorsement of the content contained therein.
+
+With that in mind, the following samples are how the data looks like: 
+  ![text-example](https://raw.githubusercontent.com/nickangmc/tweet-location-prediction/master/readme-images/text-example.png)
+
