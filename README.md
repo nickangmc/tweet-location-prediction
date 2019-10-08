@@ -14,3 +14,36 @@ The data were collected from Twitter (https://www.twitter.com), specifically for
 #### With that in mind, the following samples show the data looks like: 
   ![text-example](https://raw.githubusercontent.com/nickangmc/tweet-location-prediction/master/readme-images/text-example.png)
 
+---
+
+### Classifications
+This project will be looking at two classification techniques:
+
+- **Multi-variate Bernoulli Naïve Bayes Classifier (BNB)**
+
+    The model is based on Bernoulli probabilistic models where every outcome only has two scenarios. In the case of the project, every token (word) in the feature vector of a document (instance) is associated with a value of 0 or 1. The value of 1 means that the token occurs in that particular document; the value of 0 indicates the token does not occurs in the document.
+    
+- **Multinomial Naïve Bayes Classifier (MNB)**
+
+    This model takes an alternative approach to represent the documents, that is unlike binary values, it associates each token with a term frequency. For a given term, its number of its occurrence in a document is counted and assigned to the term.
+
+--- 
+
+### Feature Engineering
+There are several popular feature engineering methods used in this project:
+
+- _Count_ vectorizer 
+
+    It is used to break the string of text down to individual words (tokenization), which then the frequency of each individual word is counted and recorded to be use as the features.
+    
+- _Term Frequency - Inverse Document Frequency_ vectorizer 
+
+    Similarly it extracts individual words from the text, and counts the frequencies of words, however it normalizes the overall words frequencies to minimize the weight of common words.
+    
+--- 
+
+###  Hyperparameter Optimization
+Additive Smoothing, as known as Laplace Smoothing was used in both classifiers. The following graph shows how different values of smoothing value affect the accuracies of the classifiers: 
+
+  ![additive-smoothing](https://raw.githubusercontent.com/nickangmc/tweet-location-prediction/master/readme-images/additive-smoothing.png)
+
