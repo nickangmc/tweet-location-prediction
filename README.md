@@ -17,7 +17,7 @@ The data were collected from Twitter (https://www.twitter.com), specifically for
 ---
 
 ### Classifications
-This project will be looking at two classification techniques:
+This project looked at two classification techniques:
 
 - **Multi-variate Bernoulli Naïve Bayes Classifier (BNB)**
 
