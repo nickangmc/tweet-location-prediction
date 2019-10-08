@@ -54,7 +54,7 @@ The following table shows the metrics for both classifiers trained and tested wi
 
 ![result](https://raw.githubusercontent.com/nickangmc/tweet-location-prediction/master/readme-images/result.png)
 
-When evaluated against _testing dataset_, it obtained a higher accuracy of 0.35997 within top 10% of all submissions on a [Kaggle Competition](https://www.kaggle.com/c/machine-learning-project-2/).
+When evaluated against _testing dataset_, it obtained a higher accuracy of 0.35997 within top 10% of all participants on a [Kaggle Competition](https://www.kaggle.com/c/machine-learning-project-2/).
 
 ---
 
