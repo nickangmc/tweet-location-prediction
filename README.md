@@ -47,3 +47,11 @@ Additive Smoothing, as known as Laplace Smoothing was used in both classifiers. 
 
   ![additive-smoothing](https://raw.githubusercontent.com/nickangmc/tweet-location-prediction/master/readme-images/additive-smoothing.png)
 
+---
+
+### Result
+The following table shows the metrics for both classifiers trained and tested with optimum hyperparameters on both feature sets. More specifically, the metrics include weighted accuracy, weighted precision, weighted recall, and weighted f- score.
+
+![result](https://raw.githubusercontent.com/nickangmc/tweet-location-prediction/master/readme-images/result.png)
+
+
