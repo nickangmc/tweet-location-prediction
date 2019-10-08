@@ -1,5 +1,5 @@
 # Short Text Location Prediction
-Program written and developed in the language Python as the final project for the subject COMP30027: Machine Learning at the University of Melbourne - Semester 1, 2019.
+Program written and developed in the language **Python** along with **sklearn** as the final project for the subject COMP30027: Machine Learning at the University of Melbourne - Semester 1, 2019. 
 
 ### Goal: 
 To build and critically analyse some supervised Machine Learning methods, with the aim of automatically identifying the location from which a textual message was sent, as one of four Australian cities. Although this is a simplification of the more general problem of **geotagging**, it is still a very difficult problem, which has been well-studied, but a solution remains elusive.
@@ -50,8 +50,16 @@ Additive Smoothing, as known as Laplace Smoothing was used in both classifiers. 
 ---
 
 ### Result
-The following table shows the metrics for both classifiers trained and tested with optimum hyperparameters on both feature sets. More specifically, the metrics include weighted accuracy, weighted precision, weighted recall, and weighted f- score.
+The following table shows the metrics for both classifiers trained and tested with optimum hyperparameters for both feature sets on _development dataset_. More specifically, the metrics include weighted accuracy, weighted precision, weighted recall, and weighted f- score.
 
 ![result](https://raw.githubusercontent.com/nickangmc/tweet-location-prediction/master/readme-images/result.png)
+
+When evaluated against _testing dataset_, it obtained a higher accuracy of 0.35997 within top 10% of all submissions on a [Kaggle Competition](https://www.kaggle.com/c/machine-learning-project-2/).
+
+---
+
+### Project Outcome
+All the tasks and challenges within the scope of this project were completed. For more details and in-depth analysis, feel free to have a look at the [_report_](https://github.com/nickangmc/tweet-location-prediction/blob/master/report.pdf) file in this repo.
+
 
 
